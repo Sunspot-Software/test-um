@@ -1,4 +1,4 @@
-version: "3.7"
+version: "3"
 
 services:
   app_proxy:
@@ -6,11 +6,6 @@ services:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: frac-miner_bitcoind_1
       APP_PORT: 8333
-    
-  # server:
-  #   image: getumbrel/community-app-store-hello-world:latest
-  #   user: "1000:1000"
-  #   init: true
   bitcoind:
     image: fractalbitcoin/fractal:v0.1.7
     entrypoint: ["bitcoind", "-datadir=/data/", "-maxtipage=504576000"]
@@ -40,3 +35,4 @@ services:
         max-file: "3"
 networks:
   fractal-bitcoin:
+    
