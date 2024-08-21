@@ -1,11 +1,11 @@
 version: "3.7"
 
 services:
-  # app_proxy:
-  #   environment:
-  #     # The format here is: <app-id>_<docker-service-name>_1
-  #     APP_HOST: frac-miner_server_1
-  #     APP_PORT: 3000
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: frac-miner_server_1
+      APP_PORT: 8332
     
   # server:
   #   image: getumbrel/community-app-store-hello-world:latest
@@ -27,7 +27,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 40G
+          memory: 8G
     memswap_limit: 60G
     mem_swappiness: 100
     volumes:
