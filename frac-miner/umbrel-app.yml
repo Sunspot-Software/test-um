@@ -1,23 +1,23 @@
 manifestVersion: 1
-id: sparkles-hello-world
-name: Hello World
+id: frac-miner
+name: Frac Miner
 tagline: Replace this tagline with your app's tagline
 icon: https://svgur.com/i/mvA.svg
 category: Development
 version: "1.0.0"
 port: 4000
 description: >-
-  Add your app's description here.
+  Frac Miner description.
 
 
   You can also add newlines!
 
-developer: Umbrel
+developer: Hashlings
 website: https://umbrel.com
-submitter: Umbrel
-submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+submitter: Hashlings
+submission: https://github.com/Sunspot-Software/test-um
+repo: https://github.com/Sunspot-Software/test-um
+support: https://github.com/Sunspot-Software/test-um/issues
 gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
